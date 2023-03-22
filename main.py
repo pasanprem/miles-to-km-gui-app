@@ -5,23 +5,16 @@ window.title("Miles to KM Convertor")
 window.minsize(width=400, height=200)
 window.config(padx=50, pady=50)
 
-# Def
-
-
-
-
-# Label - 'is equal to'
-equal_label = tkinter.Label(text="is equal to")
-equal_label.grid(column=1, row=2)
-equal_label.config(padx=10,pady=10)
-
-
 # Functions
 def button_clicked():
     mile_value = float(miles_input.get())
     km_value = mile_value * 1.6
     kmresult_label.config(text=km_value)
 
+# Label - 'is equal to'
+equal_label = tkinter.Label(text="is equal to")
+equal_label.grid(column=1, row=2)
+equal_label.config(padx=10,pady=10)
 
 # Input for Miles
 miles_input = tkinter.Entry(width=10)
