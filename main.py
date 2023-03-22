@@ -36,12 +36,9 @@ Miles_label.grid(column=3,row=1)
 kmresult_label = tkinter.Label(text="0.00")
 kmresult_label.grid(column=2,row=2)
 
-
-
 # Label to say 'KM'
 KM_label = tkinter.Label(text="KM")
 KM_label.grid(column=3,row=2)
-
 
 # Button to 'Calculate'
 calc_button = tkinter.Button(text="Calculate", command=button_clicked)
